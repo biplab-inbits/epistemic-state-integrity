@@ -28,5 +28,5 @@ def test_formal_ground_truth_is_preserved():
     assert scenario.initial_status == "entailed"
     assert scenario.revised_status == "refuted"
 
-    assert scenario.initial_action == "access"
-    assert scenario.revised_action == "deny"
+    assert scenario.initial_action == "proceed"
+    assert scenario.revised_action == "do_not_proceed"

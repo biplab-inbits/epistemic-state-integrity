@@ -13,5 +13,5 @@ def test_authorization_revision_changes_formal_state():
 def test_authorization_revision_changes_action():
     scenario = build_authorization_revocation_scenario()
 
-    assert scenario.initial_action == Action.ACCESS
-    assert scenario.revised_action == Action.DENY
+    assert scenario.initial_action == Action.PROCEED
+    assert scenario.revised_action == Action.DO_NOT_PROCEED
