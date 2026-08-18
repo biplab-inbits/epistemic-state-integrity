@@ -77,9 +77,9 @@ $$
 If new evidence retracts $e$, then the normative state should invalidate its downstream descendants:
 
 $$
-\operatorname{retract}(e)
+\text{Retract}(e)
 \Rightarrow
-\operatorname{invalidate}(c_1,c_2,\ldots,A)
+\text{Invalidate}(c_1,c_2,\ldots,A)
 $$
 
 The empirical question is whether the model's computation exhibits the corresponding transition.
@@ -249,15 +249,8 @@ Stage 2 introduced systematic variation in dependency structure and presentation
 
 The experiment contained:
 
-$$
-4\text{ domains}
-\times
-4\text{ dependency depths}
-\times
-2\text{ presentation conditions}
-=
-32\text{ trials}
-$$
+```text
+4 domains × 4 dependency depths × 2 presentation conditions = 32 trials
 
 The domains covered different semantic settings while preserving the underlying logical structure.
 
@@ -350,17 +343,12 @@ This provides a stronger control for the possibility that explicit re-derivation
 
 ## Stage-3 Experimental Space
 
+
+```markdown
 The current Stage-3 generator produces:
 
-$$
-4\text{ domains}
-\times
-2\text{ dependency depths}
-\times
-3\text{ conditions}
-=
-24\text{ formally validated trials}
-$$
+```text
+4 domains × 2 dependency depths × 3 conditions = 24 formally validated trials
 
 Every generated scenario is checked against the formal oracle.
 
