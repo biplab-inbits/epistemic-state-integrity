@@ -217,7 +217,7 @@ If the hypothesized phenomenon disappears under appropriate controls, the projec
 
 ---
 
-# Stage 1 — Retraction Smoke Test
+# Stage 1 : Retraction Smoke Test
 
 The first model-facing experiment used a simple evidence-retraction scenario.
 
@@ -243,7 +243,7 @@ Instead, it established that the basic task was solvable and motivated a more co
 
 ---
 
-# Stage 2 — Controlled Behavioral Characterization
+# Stage 2 : Controlled Behavioral Characterization
 
 Stage 2 introduced systematic variation in dependency structure and presentation format.
 
@@ -290,7 +290,7 @@ This motivated the Stage-3 redesign.
 
 ---
 
-# Stage 3 — Temporal Commitment and Retraction
+# Stage 3 : Temporal Commitment and Retraction
 
 Stage 3 changes the experimental question.
 
@@ -358,6 +358,7 @@ Every generated scenario is checked against the formal oracle.
 The required transition is:
 
 ```text
+
 initial_status = entailed
 revised_status = refuted
 
