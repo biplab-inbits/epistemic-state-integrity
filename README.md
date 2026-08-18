@@ -349,9 +349,9 @@ This provides a stronger control for the possibility that explicit re-derivation
 
 
 The current Stage-3 generator produces:
-```text
+
 4 domains × 2 dependency depths × 3 conditions = 24 formally validated trials.
-```
+
 
 Every generated scenario is checked against the formal oracle.
 
