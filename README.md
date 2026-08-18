@@ -251,6 +251,7 @@ The experiment contained:
 
 ```text
 4 domains × 4 dependency depths × 2 presentation conditions = 32 trials
+``` 
 
 The domains covered different semantic settings while preserving the underlying logical structure.
 
@@ -347,8 +348,9 @@ This provides a stronger control for the possibility that explicit re-derivation
 ```markdown
 The current Stage-3 generator produces:
 
-```text
-4 domains × 2 dependency depths × 3 conditions = 24 formally validated trials
+The current Stage-3 generator produces:
+
+**4 domains × 2 dependency depths × 3 conditions = 24 formally validated trials.**
 
 Every generated scenario is checked against the formal oracle.
 
@@ -360,6 +362,7 @@ revised_status = refuted
 
 initial_action = proceed
 revised_action = do_not_proceed
+```
 ```
 
 This validation occurs before a scenario is sent to the language model.
